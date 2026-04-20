@@ -7,6 +7,6 @@ plugins: [react()],
     host: true
   },
   preview: {
-    allowedHosts: ['sims-ppob-luthfy-production.up.railway.app']
+    allowedHosts: ['simsppob-luthfy-production.up.railway.app']
   }
 });
