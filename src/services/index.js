@@ -4,10 +4,12 @@
 // Set USE_MOCK = true  → uses local mockService.js (no network needed)
 // Set USE_MOCK = false → calls the real API at take-home-test-api.nutech-integrasi.com
 // ─────────────────────────────────────────────────────────────────────────────
-export const USE_MOCK = false; // ← flip to true for offline development
+// ← flip to true for offline development
 
 import * as real from './api';
 import * as mock from './mockService';
+
+export const USE_MOCK = false; 
 
 export const register              = USE_MOCK ? mock.mockRegister              : real.apiRegister;
 export const login                 = USE_MOCK ? mock.mockLogin                 : real.apiLogin;
