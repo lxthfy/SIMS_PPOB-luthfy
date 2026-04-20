@@ -65,12 +65,6 @@ const LoginPage = ({ onNavigate }) => {
             belum punya akun? registrasi{' '}
             <button onClick={() => onNavigate('register')} style={{ background: 'none', border: 'none', color: '#ef4444', cursor: 'pointer', fontWeight: 600, padding: 0 }}>di sini</button>
           </p>
-          {/* Demo hint — mock mode only */}
-          <div style={{ marginTop: 24, padding: '12px 16px', background: '#fef9c3', borderRadius: 8, fontSize: 12, color: '#854d0e', textAlign: 'center', lineHeight: 1.6 }}>
-            <strong>Mock mode credentials:</strong><br />
-            email: <code>user@nutech-integrasi.com</code><br />
-            password: <code>abcdef1234</code>
-          </div>
         </div>
       </div>
       {/* Illustration */}
